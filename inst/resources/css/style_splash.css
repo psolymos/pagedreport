@@ -309,10 +309,6 @@ h2, h3, h4 {
     color: var(--secondary-color)
 }
 
-h1.title, h2.author, h2.date {
-    color: #ffffff;
-}
-
 /* headers */
 h1.title {
   font-size: 32pt;
@@ -324,11 +320,12 @@ h1.title {
   padding-bottom: 0;
   padding-top: 0;
   background: transparent;
+  color: var(--secondary-color);
 }
 
 h1.subtitle {
   text-transform: uppercase;
-  color: #ffffff;
+  color: #000000;
   font-size: 14pt;
   font-weight: 700;
   background: var(--secondary-color);
@@ -345,12 +342,14 @@ h2.author {
   margin-top: 110%;
   margin-left: 60%;
   font-size: 18pt;
+  color: #ffffff;
 }
 
 h2.date {
   margin-left: 60%;
   margin-bottom: 0%;
   font-size: 18pt;
+  color: #ffffff;
 }
 
 /* normal headers */
