@@ -27,12 +27,12 @@ paged_splash <- function(logo = "0",
   # default img
   if (front_img == "0") {
     front_img <-
-      pkg_resource("img/nuts-img.jpg")
+      pkg_resource("https://source.unsplash.com/K785Da4A_JA")
   }
 
   if (back_img == "0") {
     back_img <-
-      pkg_resource("img/hazelnuts-img.jpg")
+      pkg_resource("https://source.unsplash.com/bT2XiJtcQ1M")
   }
 
   if (logo == "0") {
