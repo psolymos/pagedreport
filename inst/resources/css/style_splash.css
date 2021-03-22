@@ -296,7 +296,7 @@ h1.title {
 @import 'https://fonts.googleapis.com/css?family=Exo';
 @import 'https://fonts.googleapis.com/css?family=JetBrains+Mono';
 
-p, ul, ol, a {
+p, ul, ol, a, table {
     font-family: var(--main-font);
     font-size: 14pt;
 }
@@ -385,7 +385,7 @@ h2 {
 .section > h1, .section > h2, .section > h3, .section > h4, .section > h5, .section > h6 {
   break-after: avoid;
 }
-.footenotes {
+.footnotes {
   break-before: always;
   break-after: always;
 }
@@ -436,3 +436,43 @@ pre[class] {
   border-radius: .2rem;
 }
 
+abbr {
+  text-decoration: none;
+}
+
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #666;
+}
+table thead th {
+  border-bottom: 1px solid #EDE7f6;
+}
+/*
+thead, tfoot, tr:nth-child(even) {
+  background: #eee;
+}
+*/
+thead {
+  background: #F9F7FC;
+}
+
+.footnotes {
+  font-size: 90%;
+}
+.footnotes hr::before {
+  font-family: var(--main-font);
+  content: "Footnotes:";
+}
+.footnotes hr {
+  border: none;
+}
+.footnote-break {
+  width: 1in;
+}
+body {
+  hyphens: auto;
+}
+code {
+  hyphens: none;
+}
