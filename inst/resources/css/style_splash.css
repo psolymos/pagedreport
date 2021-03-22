@@ -130,13 +130,15 @@ h1.title {
 }
 
 /* paragraph margins */
+/*
 .pagedjs_left_page p,  .pagedjs_left_page ul, .pagedjs_left_page h2, .pagedjs_left_page h3, .pagedjs_left_page h4 {
-/*  margin-right: 5% */
+  margin-right: 5%
 }
 
 .pagedjs_right_page p,  .pagedjs_right_page ul, .pagedjs_right_page h2, .pagedjs_right_page h3, .pagedjs_right_page h4 {
-/*  margin-left: 5% */
+  margin-left: 5%
 }
+*/
 
 /* ------------------------ Front Cover --------------------- */
 @page:first{
@@ -268,7 +270,7 @@ h1.title {
 
 @page:nth(2){
   @top-left{
-    display:none;
+    display: none;
   }
 
   @top-center{
@@ -294,7 +296,7 @@ h1.title {
 @import 'https://fonts.googleapis.com/css?family=Exo';
 @import 'https://fonts.googleapis.com/css?family=JetBrains+Mono';
 
-p, ul, a {
+p, ul, ol, a {
     font-family: var(--main-font);
     font-size: 14pt;
 }
@@ -356,17 +358,18 @@ h2.date {
 h1 {
   font-size: 28pt;
   color: #ffffff;
-  text-align: center;
+/*  text-align: center; */
+  padding-left: 17%;
   padding-top: 2cm;
   padding-bottom: 2cm;
   background-color: var(--secondary-color);
-/*  background-image: url(../utils/line.svg), url(../utils/line.svg); */
+/*  background-image: url(../utils/line.svg), url(../utils/line.svg);
   background-repeat: no-repeat, no-repeat;
   background-position: 5% 40%, 95% 40%;
-  background-size:  5cm, 5cm;
+  background-size:  5cm, 5cm; */
   margin-right: -17%;
   margin-left: -17%;
-  margin-top: -10%;
+  margin-top: -17%;
 }
 
 h2 {
