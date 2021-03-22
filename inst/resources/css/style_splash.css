@@ -241,7 +241,7 @@ h1.title {
 .toc ul, .toc a, .toc a::after {
   background-color: #ffffff;
   color: var(--main-color);
-  font-weight: bold;
+  /* font-weight: bold; */
 }
 
 .toc ul > li > ul > li > a {
@@ -299,6 +299,7 @@ h1.title {
 p, ul, ol, a, table {
     font-family: var(--main-font);
     font-size: 14pt;
+    font-weight: 300;
 }
 
 h1, h2, h3, h4 {
@@ -457,6 +458,9 @@ thead {
   background: #F9F7FC;
 }
 
+.caption {
+  font-size: 90%;
+}
 .footnotes {
   font-size: 90%;
 }
