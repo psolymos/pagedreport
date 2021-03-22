@@ -412,7 +412,7 @@ img {
 code {
   font-family: var(--code-font), monospace;
   font-size: inherit;
-  color: #DB4C69;
+  color: #4527A0;
 }
 
 /* Code in text */
@@ -420,7 +420,7 @@ p > code,
 li > code,
 dd > code,
 td > code {
-  background: #F9F2F4;
+  background: #EDE7f6;
   word-wrap: break-word;
   box-decoration-break: clone;
   padding: .1rem .3rem .2rem;
@@ -432,7 +432,7 @@ pre {
   white-space: pre-wrap;
 }
 pre[class] {
-  background: #F8F5EC;
+  background: #F9F7FC;
   border-radius: .2rem;
 }
 
