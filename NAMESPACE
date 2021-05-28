@@ -2,5 +2,6 @@
 
 export(paged_grid)
 export(paged_hazelnuts)
+export(paged_hosting)
 export(paged_splash)
 export(paged_windmill)

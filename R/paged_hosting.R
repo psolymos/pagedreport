@@ -1,4 +1,4 @@
-#' Function for splash template
+#' Function for hosting template
 #'
 #' @param logo Logo
 #' @param front_img Front cover image
@@ -13,7 +13,7 @@
 #' @return A pagedown template
 #' @export
 #'
-paged_splash <- function(logo = "0",
+paged_hosting <- function(logo = "0",
                             front_img = "0",
                             back_img = "0",
                             img_to_dark = TRUE,
@@ -24,24 +24,24 @@ paged_splash <- function(logo = "0",
                             ...) {
   # arguments
   main_css <-
-    pkg_resource("css/style_splash.css")
+    pkg_resource("css/style_hosting.css")
   pandoc_html <-
     pkg_resource("html/template_paged.html")
 
   # default img
   if (front_img == "0") {
     front_img <-
-      pkg_resource("https://source.unsplash.com/K785Da4A_JA")
+      pkg_resource("https://source.unsplash.com/uk-no6Yv91g")
   }
 
   if (back_img == "0") {
     back_img <-
-      pkg_resource("https://source.unsplash.com/bT2XiJtcQ1M")
+      pkg_resource("https://source.unsplash.com/tZWwUBhVJag")
   }
 
   if (logo == "0") {
     logo <-
-      pkg_resource("https://hub.analythium.io/assets/logo/logo.svg")
+      pkg_resource("https://hub.analythium.io/assets/marks/hosting-logo.png")
   }
 
   # darken img
