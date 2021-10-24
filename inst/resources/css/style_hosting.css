@@ -12,9 +12,9 @@
     --running-title-width: 2.5in;
     --screen-pages-spacing: 5mm;
     --main-color: #565656;
-    --secondary-color: #FFD700;
-    --main-font: "Rubik";
-    --header-font: "Exo";
+    --secondary-color: #20f4a2;
+    --main-font: "Manrope";
+    --header-font: "Manrope";
     --code-font: "JetBrains Mono";
   }
 
@@ -295,6 +295,8 @@ h1.title {
 @import 'https://fonts.googleapis.com/css?family=Rubik';
 @import 'https://fonts.googleapis.com/css?family=Exo';
 @import 'https://fonts.googleapis.com/css?family=JetBrains+Mono';
+@import 'https://fonts.googleapis.com/css?family=Manrope';
+
 
 p, ul, ol, a, table {
     font-family: var(--main-font);
@@ -314,7 +316,7 @@ h2, h3, h4 {
 
 /* headers */
 h1.title {
-  font-size: 16pt;
+  font-size: 32pt;
   margin-right: 15%;
   margin-left: 15%;
   margin-top: 50%;
@@ -329,7 +331,7 @@ h1.title {
 h1.subtitle {
   text-transform: uppercase;
   color: #000000;
-  font-size: 14pt;
+  font-size: 16pt;
   font-weight: 700;
   background: var(--secondary-color);
   margin-top: -70%;
@@ -344,20 +346,20 @@ h1.subtitle {
 h2.author {
   margin-top: 110%;
   margin-left: 60%;
-  font-size: 18pt;
+  font-size: 16pt;
   color: #ffffff;
 }
 
 h2.date {
   margin-left: 60%;
   margin-bottom: 0%;
-  font-size: 18pt;
+  font-size: 14pt;
   color: #ffffff;
 }
 
 /* normal headers */
 h1 {
-  font-size: 16pt;
+  font-size: 18pt;
   color: #ffffff;
 /*  text-align: center; */
   padding-left: 17%;
@@ -374,7 +376,7 @@ h1 {
 }
 
 h2 {
-  font-size: 14pt;
+  font-size: 16pt;
 }
 
 /* --------------------- CSS Fragmentation --------------------------- */
@@ -413,7 +415,7 @@ img {
 code {
   font-family: var(--code-font), monospace;
   font-size: inherit;
-  color: #4527A0;
+  color: #5544b6;
 }
 
 /* Code in text */
@@ -429,6 +431,7 @@ td > code {
 }
 
 pre {
+  background: #EDE7f6;
   padding: 1em;
   white-space: pre-wrap;
 }
